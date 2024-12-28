@@ -53,7 +53,36 @@
     echo "\"mido\"";
     echo "<br>";
     echo "\"mido\\\"";
-    
+
+    ?>
+
+    <h3>nl2br function</h3>
+
+    <?php
+    echo  nl2br("this multiline paragraph by nl2br function,
+    for Inserts HTML line breaks before all newlines in a string .");
+    ?>
+    <h3>heredoc & nowdoc</h3>
+    <?php
+
+    // here doc
+    echo <<< "ul"
+    <h4>heredoc</h4>
+<ul>
+<li> mido </li>
+<li> ahmed</li>
+<li> hamo</li>
+</ul>
+ul;
+    //nowdoc
+    echo <<< 'now'
+ <h4>nowdoc</h4>
+<ul>
+<li> mido </li>
+<li> ahmed</li>
+<li> hamo</li>
+</ul>
+now;
     ?>
 </body>
 
