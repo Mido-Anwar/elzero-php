@@ -23,7 +23,7 @@ $courseName = "php osama elzero";
     a line of code other than a single-line comment,
     as it cancels everything after it.
  */
-        echo ("we love php")/* example */;
+        echo ("<h2>we love php</h2>")/* example */;
         ?>
     </div>
 
@@ -126,7 +126,49 @@ now;
         echo "<br>";
         ?>
     </div>
+    <div>
+        <h3>constant</h3>
+        <?php
 
+        echo php_uname($mode = "a");
+        echo "<br>";
+        echo "number script line";
+        echo __LINE__;
+        echo "<br>";
+        echo __DIR__;
+        echo "<br>";
+        echo __FILE__;
+        ?>
+    </div>
+    <div>
+        <h3>arthimetc oprators</h3>
+        <?php
+        echo " 1172 + 50 = " . 1172 + 50;
+        echo "<br>";
+        echo " 1172 / 50 = " . 1172 / 50;
+        echo "<br>";
+        echo " 1172 * 50 = " . 1172 * 50;
+        echo "<br>";
+        echo " 1172 - 50 = " . 1172 - 50;
+        echo "<br>";
+        echo " 1172 % 50 = " . 1172 % 50;
+        echo "<br>";
+        echo " 1170 % 50 = " . 1170 % 50;
+        echo "<br>";
+        echo "الرفع الأسي -  Exponentiation";
+        echo " 2 ** 5  = " . 2 ** 5;
+        echo "<br>";
+        echo "identity";
+        echo "<br>";
+        echo  "<span>" . 'gettype(+"1170 % 50")' . "</span>" . gettype(+"1170 % 50");
+        echo "<br>";
+        echo  "negation";
+        echo "<br>";
+        echo "-'-100'";
+        echo "<br>";
+        ?>
+
+    </div>
 </body>
 
 </html>
