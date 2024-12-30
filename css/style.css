@@ -15,4 +15,20 @@ div {
   width: 50%;
   height: auto;
   padding: 10px;
+}
+
+span {
+  background-color: cadetblue;
+  color: crimson;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
+
+i {
+  background-color: cadetblue;
+  color: crimson;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
