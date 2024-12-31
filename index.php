@@ -141,7 +141,9 @@ now;
         ?>
     </div>
     <div>
+
         <h3>arthimetc oprators</h3>
+        <pre>
         <?php
         echo " 1172 + 50 = " . 1172 + 50;
         echo "<br>";
@@ -166,7 +168,34 @@ now;
         echo "<br>";
         echo "-'-100'";
         echo "<br>";
-        ?>
+        echo  "<h5>Assignment operator</h5>";
+        echo "<br>";
+        $g = 10;
+        $g += 20;
+        echo <<< 'assignmentOperator'
+        this procese with all operators;
+        $g= 10;
+        $g +=20;
+        echo $g;
+        assignmentOperator;
+        echo "<br>";
+        echo $g;
+        echo  "<h5>comparison operator</h5>";
+        echo "var_dump(100 <> 100)<br> this exprission <> means not equal the result will be false ";
+        echo "<br>";
+        var_dump(100 <> 100);
+        echo "<br>";
+        echo "var_dump(100 <=> 200)<br> this exprission <=> 
+        <br>
+        means if result greater than the return will be 1 
+        <br>
+         if less than -1 
+         <br> if equal 0";
+        echo "<br>";
+        var_dump(100 <=> 100);
+        ?> 
+ </pre>
+
 
     </div>
 </body>
