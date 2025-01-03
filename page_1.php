@@ -101,6 +101,12 @@ var_dump(100 <=> 100);
             ?>
 
         </div>
+        <div>
+            <h3> if , ifelse , else </h3>
+            <form action="" method="post">
+                <input type="text" name="userName" id="">
+            </form>
+        </div>
 </body>
 
 </html>
