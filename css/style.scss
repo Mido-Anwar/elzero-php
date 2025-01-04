@@ -4,7 +4,14 @@
     box-sizing: border-box;
 
 }
-
+p{
+    color: rgb(13, 85, 13);
+    background-color: rgb(206, 221, 235);
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    margin: 10px;
+}
 h3,h2{
     color: goldenrod;
     background-color: #000;
@@ -16,7 +23,7 @@ h3,h2{
 
 h4,h5{
     color: rgb(226, 33, 7);
-    background-color: #000;
+    background-color: #420993;
     margin: 30px 0px;
     padding: 10px;
 }

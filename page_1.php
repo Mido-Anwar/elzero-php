@@ -1,3 +1,7 @@
+<?php
+$condition = 1;
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -87,7 +91,7 @@ var_dump(100 <=> 100);
             echo "</pre>";
             echo "<br>";
 
-      
+
             echo "<h4> Operator Precedence</h4>";
 
             $c = 10 || false;
@@ -101,12 +105,36 @@ var_dump(100 <=> 100);
             ?>
 
         </div>
+
         <div>
-            <h3> if , ifelse , else </h3>
-            <form action="" method="post">
-                <input type="text" name="userName" id="">
-            </form>
+            <?php
+            if ($condition === 1): ?>
+                <h3> if , ifelse , else </h3>
+                <form action="" method="POST">
+                    <input type="text" name="userName" id="">
+                    <select name="lang" id="">
+                        <option value="ar">arabic</option>
+                        <option value="en">english</option>
+                        <option value="es">espanish</option>
+                    </select>
+                    <button type="submit">go</button>
+                </form>
+            <?php elseif ($condition === 2) : ?>
+
+                <h4>elseif altrnative syntax </h4>
+            <?php else : ?>
+                <p>else</p>
+            <?php endif ?>
+
+            <p>
+                <?php
+                $a = 5;
+$word = $a > 0 ? "good idea" : " bad";
+                 echo "ternary operator $word"  /*$a > 0 ? "good" : " bad"*/;
+                ?>
+            </p>
         </div>
+
 </body>
 
 </html>
