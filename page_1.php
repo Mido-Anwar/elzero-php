@@ -129,10 +129,32 @@ var_dump(100 <=> 100);
             <p>
                 <?php
                 $a = 5;
-$word = $a > 0 ? "good idea" : " bad";
-                 echo "ternary operator $word"  /*$a > 0 ? "good" : " bad"*/;
+                $word = $a > 0 ? "good idea" : " bad";
+                echo "ternary operator $word"  /*$a > 0 ? "good" : " bad"*/;
                 ?>
             </p>
+            <h3>switch case</h3>
+            <p>
+                <?php
+
+                $day = "saturday";
+
+                switch ($day) {
+                    case  "saturday";
+                        echo "hello today is $day";
+                        break;
+
+                    case "sunday";
+                        echo "hello today is $day";
+                        break;
+
+                    case "monday";
+                        "hello today is $day";
+                        break;
+                }
+                ?>
+            </p>
+
         </div>
 
 </body>

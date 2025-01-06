@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+span {
+  background-color: yellow;
+  color: #000;
+  padding: 10px;
+  margin: 10px;
+  max-height: 50px;
+}
+
 p {
   color: rgb(13, 85, 13);
   background-color: rgb(206, 221, 235);
@@ -13,7 +21,8 @@ p {
   margin: 10px;
 }
 
-h3, h2 {
+h3,
+h2 {
   color: goldenrod;
   background-color: #000;
   margin: 30px 0px;
@@ -21,7 +30,8 @@ h3, h2 {
   font-size: 14px;
 }
 
-h4, h5 {
+h4,
+h5 {
   color: rgb(226, 33, 7);
   background-color: #420993;
   margin: 30px 0px;
@@ -30,17 +40,17 @@ h4, h5 {
 
 div {
   background-color: rgb(168, 168, 168);
-  width: 50%;
-  height: auto;
+  min-width: 50%;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-span {
-  background-color: cadetblue;
-  color: crimson;
-  font-weight: bold;
-  padding: 10px;
-  margin: 10px;
+.con {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 i {

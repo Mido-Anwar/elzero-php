@@ -14,7 +14,9 @@ $courseName = "php osama elzero";
 </head>
 
 <body>
-    <a href="page_1.php">episode 27</a>
+    <a href="page_1.php">episode | oprator</a>
+    <a href="page_2.php">episode | loop</a>
+
     <div>
         <?php
         // single line comment
