@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 $courseName = "php with gio";
 
 ?>
@@ -31,10 +34,30 @@ $courseName = "php with gio";
 
         ?>
         <br>
+        <h3>data types</h3>
         <p>
 
             <?=
             print " php version : " . PHP_VERSION;
+
+            // scalar types
+            # int 1,2,3,4,5; not decimal
+            # double 1.5 , 0.5 , -2.4;
+            # bool true 0r false;
+            # string "mido", ""
+
+            //compund types
+            # array - to declare array() , []
+            # object
+            # callble
+            # itrable
+
+            //special types
+            # resources
+            # null
+            // type casting
+            $x = (int) "15r67";
+var_dump($x)
             ?>
         </p>
 
