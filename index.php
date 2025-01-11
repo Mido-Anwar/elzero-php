@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 $courseName = "php with gio";
 
 ?>
@@ -37,7 +35,7 @@ $courseName = "php with gio";
         <h3>data types</h3>
         <p>
 
-            <?=
+            <?php
             print " php version : " . PHP_VERSION;
 
             // scalar types
@@ -56,8 +54,41 @@ $courseName = "php with gio";
             # resources
             # null
             // type casting
+
+
+
+            ?>
+            <br>
+            <?php
             $x = (int) "15r67";
-var_dump($x)
+            // The number {0b110} is a binary representation of the-decimal number 6
+            $c = 0b110;
+            /**
+             * In PHP, PHP_INT_MAX is a predefined 
+             * constant that represents 
+             * the maximum integer
+             *  value that can be stored on the current system
+             * 
+             */
+            $max = PHP_INT_MAX;
+            $mido = [4, 3, 9];
+            $cast = (int) "1_000_000";
+            $withoutCast = "1_000_000";
+            $nor= 1_000_000;
+            /**
+             *  INTEGERS
+             */
+            var_dump($x);
+            echo "<br>";
+            var_dump($c);
+            echo "<br>";
+            var_dump($cast);
+            echo "<br>";
+            var_dump($withoutCast);
+            echo "<br>";
+            var_dump($nor);
+            echo "<br>";
+
             ?>
         </p>
 
