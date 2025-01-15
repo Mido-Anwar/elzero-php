@@ -88,7 +88,24 @@ $courseName = "php with gio";
             echo "<br>";
             var_dump($nor);
             echo "<br>";
+/**
+ * FLOATS
+ */
+ $fl = 0.23;
+ $fl1 = 1 - 0.77;
 
+ var_dump($fl);
+ echo "<br>";
+ var_dump($fl1);
+ echo "<br>";
+
+ /**
+  * STRING
+  */
+  $str = "mido anwar";
+  $str[0] = "M";
+  echo "<br>";
+  echo $str . "<br>";
             ?>
         </p>
 
