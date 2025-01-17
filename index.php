@@ -74,7 +74,7 @@ $courseName = "php with gio";
             $mido = [4, 3, 9];
             $cast = (int) "1_000_000";
             $withoutCast = "1_000_000";
-            $nor= 1_000_000;
+            $nor = 1_000_000;
             /**
              *  INTEGERS
              */
@@ -88,24 +88,25 @@ $courseName = "php with gio";
             echo "<br>";
             var_dump($nor);
             echo "<br>";
-/**
- * FLOATS
- */
- $fl = 0.23;
- $fl1 = 1 - 0.77;
+            /**
+             * FLOATS
+             */
+            $fl = 0.23;
+            $fl1 = 1 - 0.77;
 
- var_dump($fl);
- echo "<br>";
- var_dump($fl1);
- echo "<br>";
+            var_dump($fl);
+            echo "<br>";
+            var_dump($fl1);
+            echo "<br>";
 
- /**
-  * STRING
-  */
-  $str = "mido anwar";
-  $str[0] = "M";
-  echo "<br>";
-  echo $str . "<br>";
+            /**
+             * STRING
+             * can you control a string sequences as an array
+             */
+            $str = "mido anwar";
+            $str[0] = "M";
+            echo "<br>";
+            echo $str . "<br>";
             ?>
         </p>
 
