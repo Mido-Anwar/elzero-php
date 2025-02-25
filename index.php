@@ -107,9 +107,21 @@ $courseName = "php with gio";
             $str[0] = "M";
             echo "<br>";
             echo $str . "<br>";
+      
             ?>
         </p>
-
+        <h3> array </h3>
+    <p>
+        <?php 
+    
+      /**
+       * ARRAY
+       */
+      $arr = [1 => "mido", true => "anwar" , 1.6 => "ahmed" , "1" => "ali"];
+      print_r($arr);
+      echo "<br>";
+        ?>
+    </p>
     </div>
 
 </body>
